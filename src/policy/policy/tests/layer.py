@@ -39,6 +39,7 @@ class PolicyLayer(PloneSandboxLayer):
 
         xmlconfig.file("configure.zcml", policy,
                        context=configurationContext)
+        z2.installProduct(app, 'policy')
 
     def tearDownZope(self, app):
         z2.uninstallProduct(app, 'policy')
