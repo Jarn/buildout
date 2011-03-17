@@ -23,3 +23,11 @@ In order to run coverage tests, use::
 You can view the coverage results in the htmlcov directory via::
 
   open htmlcov/index.html
+
+I18N
+----
+
+To update the translation files, do::
+
+  sh src/policy/policy/rebuild.sh
+  sh src/policy/policy/sync.sh
