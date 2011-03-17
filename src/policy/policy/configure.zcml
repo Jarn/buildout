@@ -1,0 +1,19 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="policy">
+
+  <include package="plone.app.caching" />
+  <include package="plone.app.discussion" />
+
+  <genericsetup:registerProfile
+      name="default"
+      title="policy"
+      directory="profiles/default"
+      description="Installs the policy add-on"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+  
+</configure>
