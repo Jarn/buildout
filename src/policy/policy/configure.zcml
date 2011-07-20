@@ -15,6 +15,11 @@
   <include package="z3c.jbot" file="meta.zcml" />
   <browser:jbot directory="jbot" />
 
+  <cmf:registerDirectory name="theme_images"/>
+  <cmf:registerDirectory name="theme_templates"/>
+  <cmf:registerDirectory name="theme_styles"/>
+  <cmf:registerDirectory name="theme_javascripts"/>
+
   <genericsetup:registerProfile
       name="default"
       title="policy"
@@ -22,5 +27,5 @@
       description="Installs the policy add-on"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
-  
+
 </configure>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<object name="portal_skins" allow_any="False" cookie_persistence="False"
+   default_skin="policy">
+
+ <object name="theme_images"
+    meta_type="Filesystem Directory View"
+    directory="policy:skins/theme_images"/>
+ <object name="theme_templates"
+    meta_type="Filesystem Directory View"
+    directory="policy:skins/theme_templates"/>
+ <object name="theme_styles"
+    meta_type="Filesystem Directory View"
+    directory="policy:skins/theme_styles"/>
+ <object name="theme_javascripts"
+    meta_type="Filesystem Directory View"
+    directory="policy:skins/theme_javascripts"/>
+
+ <skin-path name="policy" based-on="Plone Default">
+  <layer name="theme_images"
+     insert-after="custom"/>
+  <layer name="theme_templates"
+     insert-after="theme_images"/>
+  <layer name="theme_styles"
+     insert-after="theme_templates"/>
+  <layer name="theme_javascripts"
+     insert-after="theme_styles"/>
+ </skin-path>
+
+</object>
