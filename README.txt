@@ -8,10 +8,19 @@ It is provided as is without any support or warranty.
 Before using this buildout you should read through this document and get
 to know the practices it encourages.
 
+Setup
+-----
+
+The production buildout sets up Varnish, haProxy, two Zope instances and ZEO.
+Varnish is running on 127.0.0.1:8080 and the Plone site id should be `Plone`.
+
+The development buildout sets up a Zope instance with a direct file storage
+also running on port 8080.
+
 Tests
 -----
 
-You can run tests for all packages at once using::
+You can run tests for the policy package using::
 
   bin/test
 
