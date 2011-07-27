@@ -8,6 +8,23 @@ It is provided as is without any support or warranty.
 Before using this buildout you should read through this document and get
 to know the practices it encourages.
 
+Ideas
+-----
+
+This buildout has a `policy` distribution by that name included, which in turn
+contains exactly one Python package by the name `policy`.
+
+All customer / site specific code, templates, CSS, translations and
+customizations are done inside that one package.
+
+The buildout and the policy distribution are part of the same Git repository and
+tagged and deployed together. There's never any releases of the policy
+distribution.
+
+All reusable functionality is developed in standalone projects, wired in via
+mr.developer for development. For production these will always get releases to
+PyPi or dist.jarn.com.
+
 Setup
 -----
 
