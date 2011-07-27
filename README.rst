@@ -37,6 +37,8 @@ also running on port 8080.
 Bootstrap
 ---------
 
+To get started do::
+
   python2.6 bootstrap.py -d
   bin/buildout -c development.cfg
   bin/instance fg
