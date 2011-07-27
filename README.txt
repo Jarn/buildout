@@ -17,6 +17,13 @@ Varnish is running on 127.0.0.1:8080 and the Plone site id should be `Plone`.
 The development buildout sets up a Zope instance with a direct file storage
 also running on port 8080.
 
+Bootstrap
+---------
+
+  python2.6 bootstrap.py -d
+  bin/buildout -c development.cfg
+  bin/instance fg
+
 Tests
 -----
 
