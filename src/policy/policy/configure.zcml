@@ -10,9 +10,6 @@
   <five:registerPackage package="." initialize=".initialize"/>
   <i18n:registerTranslations directory="locales" />
 
-  <include package="plone.app.caching" />
-  <include package="plone.app.discussion" />
-
   <include package="z3c.jbot" file="meta.zcml" />
   <browser:jbot directory="jbot" />
 

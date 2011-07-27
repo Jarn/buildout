@@ -13,8 +13,6 @@ setup(name='policy',
     install_requires=[
         'setuptools',
         'Plone',
-        'plone.app.caching',
-        'plone.app.discussion',
         'plone.app.testing',
         'z3c.jbot',
     ],
