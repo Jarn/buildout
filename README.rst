@@ -3,7 +3,7 @@ Documentation
 
 This buildout is meant to be a basis for all future Jarn buildouts.
 Anyone, also people not working on Jarn is free to use this buildout.
-It is provided as is without any support or warranty.
+It is provided as-is without any support or warranty.
 
 Before using this buildout you should read through this document and get
 to know the practices it encourages.
