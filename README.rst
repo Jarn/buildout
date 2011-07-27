@@ -39,7 +39,7 @@ Bootstrap
 
 To get started do::
 
-  python2.6 bootstrap.py -d
+  python2.6 bootstrap.py -dc development.cfg
   bin/buildout -c development.cfg
   bin/instance fg
 
