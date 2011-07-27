@@ -1,8 +1,8 @@
 Documentation
 =============
 
-This buildout is meant to be a basis for all future Jarn buildouts.
-Anyone, also people not working on Jarn is free to use this buildout.
+This buildout is meant to be a basis for all future Jarn project buildouts.
+Anyone, also people not working for Jarn, is free to use this buildout.
 It is provided as-is without any support or warranty.
 
 Before using this buildout you should read through this document and get
